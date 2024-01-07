@@ -1,38 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Reddit Clone
+
+Amazon Clone is a feature-rich e-commerce application that replicates the core functionalities of Amazon, including product listings, cart management, checkout with Stripe integration, and user authentication. Developed with Next.js for the frontend, Firebase for real-time database and authentication, Tailwind CSS for styling, Stripe for payment processing, and a variety of other technologies for a robust user experience.
+
+## Features
+
+- **User Authentication:**
+  - Users can create accounts and log in using Google with Next-Auth.
+
+- **Product Listings:**
+  - Browse a variety of products with detailed descriptions, images, and pricing.
+
+- **Shopping Cart:**
+  - Users can add products to their shopping cart, view and edit the cart contents.
+
+- **Checkout with Stripe:**
+  - Secure and seamless checkout process with Stripe payment integration.
+
+- **Order Management:**
+  - View order history and details for past purchases.
+
+- **Webhooks:**
+  - Utilizes webhooks for handling asynchronous events and improving user experience.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/mohammedhassad/amazon-clone.git
+cd amazon-clone
+```
+
+2. **Install dependencies:**
+
+```bash
+npm install
+```
+
+3. **Initialize Firebase and Set Environment Variables:**
+
+    - Create a Firebase project and set up authentication and real-time database. Update the Firebase configuration in the project accordingly.
+    - Create a `.env.local` file in the root directory and set the required environment variables. You can use the provided `.env.example` as a template.
+
+4. **Run the application:**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
+  The application will be accessible at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/) - A React framework for building web applications.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for styling.
+- [Firebase](https://firebase.google.com/) - A platform for building web and mobile applications.
+- [Redux](https://redux.js.org/) - A state management library for React.
+- [NextAuth](https://next-auth.js.org/) - Authentication library for Next.js.
+- [Stripe](https://tailwindcss.com/) - A technology company that builds economic infrastructure for the internet.
+- [Axios](https://www.axios.com/) - A promise-based HTTP client for making requests.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Contributing
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Pull requests are welcome but please open an issue and discuss what you will do before 😊
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Known Bugs
 
-## Learn More
+Feel free to email me at [Email](mailto:mohammed.hassad98@gmail.com) or [Lnkedin](https://linkedin.com/me/mohemedhassad) if you run into any issues or have questions, ideas or concerns. Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Thank you! 🙂
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](/LICENSE). Feel free to use, modify, and distribute the code.
