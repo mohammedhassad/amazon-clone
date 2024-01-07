@@ -1,5 +1,4 @@
-
-# Reddit Clone
+# Amazon Clone
 
 Amazon Clone is a feature-rich e-commerce application that replicates the core functionalities of Amazon, including product listings, cart management, checkout with Stripe integration, and user authentication. Developed with Next.js for the frontend, Firebase for real-time database and authentication, Tailwind CSS for styling, Stripe for payment processing, and a variety of other technologies for a robust user experience.
 
